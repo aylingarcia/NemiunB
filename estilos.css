@@ -98,7 +98,11 @@ body {
         line-height: 32px;
       }
       
+      
 
+
+      .
+      
       pre {
         padding: 40px;
         white-space: pre-wrap; /* css-3 */
@@ -154,8 +158,15 @@ body {
         background-color: black;
       }
       
-
-
+      h1 {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 70px;
+        color: var(--title-color);
+      }
+      
       .footer {
         display: flex;
         flex-direction: column;
@@ -167,7 +178,7 @@ body {
         background: var(--footer-bg);
         margin-top: 120px;
       }
-      .footer__title {
+      .footertitle {
         font-style: normal;
         font-weight: normal;
         font-size: 32px;
@@ -190,6 +201,42 @@ body {
         line-height: 24px;
         color: var(--paragraph-color);
       }
+      .forminput {
+        width: 100%;
+        margin-top: 24px;
+        padding: 12px 16px;
+        font-size: 16px;
+        line-height: 24px;
+        border: var(--input-border);
+        background: var(--input-bg);
+        border-radius: 8px;
+        box-sizing: border-box;
+        color: var(--input-color);
+      }
+      
+      .forminput::placeholder {
+        color: var(--input-color);
+      }
+      
+      
+      
+      
+      .boton {
+        width: 100%;
+        padding: 12px 16px;
+        margin-top: 24px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 8px;
+        text-align: center;
+        color: var(--btn-text-color);
+        border: none;
+        cursor: pointer;
+        background-color: var(--btn-bg);
+        box-sizing: border-box;
+      }
+
 /*responsiv */
       @media screen and (max-width: 1024px) {
         .ABCizquierda {
